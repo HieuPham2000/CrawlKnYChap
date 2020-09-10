@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="gui.ControllerIntro">
+   <children>
+      <ImageView fitHeight="311.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Home/practice/java/CrawlKnYChap/src/main/resources/img/photo.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="34.0" layoutY="309.0" prefHeight="74.0" prefWidth="532.0" text="Kimetsu no Yaiba - Thanh gươm diệt quỷ" textFill="#8d0c89">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="364.0" prefHeight="38.0" prefWidth="85.0" text="Tác giả" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="402.0" prefHeight="38.0" prefWidth="115.0" text="Số chapter" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="438.0" prefHeight="38.0" prefWidth="107.0" text="Tình trạng" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="364.0" prefHeight="38.0" prefWidth="195.0" text="Gotouge Koyoharu" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="402.0" prefHeight="38.0" prefWidth="195.0" text="205" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="438.0" prefHeight="38.0" prefWidth="195.0" text="Đã kết thúc" textFill="#e88217">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="returnMainScene" alignment="CENTER" layoutX="496.0" layoutY="547.0" mnemonicParsing="false" onAction="#clickReturnMainScene" text="TRỞ VỀ" textFill="#8d0c89">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

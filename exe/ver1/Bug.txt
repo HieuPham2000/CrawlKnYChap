@@ -1,0 +1,5 @@
+﻿1. Scene Read
+Khi Find, thì màn hình sẽ chuyển chap mới
+Song indexChap không được thiết lập tương ứng chap mới 
+=> Lỗi khi sau đó ấn Next Chap hoặc Pre
+=> Chap mới hiện ra không phải chap liền trước/ sau của chap hiện tại, mà là của chap TRƯỚC khi click find button

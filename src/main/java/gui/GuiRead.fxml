@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ControllerRead">
+   <children>
+      <Label fx:id="numberImg" alignment="CENTER" layoutX="160.0" layoutY="20.0" prefHeight="27.0" prefWidth="55.0" text="Label" textFill="#ff8000" />
+      <Button fx:id="preChap" layoutX="539.0" layoutY="320.0" mnemonicParsing="false" onAction="#clickPreChap" prefHeight="39.0" prefWidth="186.0" text="&lt;&lt; Chap trước &lt;&lt;" textFill="#00a8ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="nextChap" layoutX="539.0" layoutY="248.0" mnemonicParsing="false" onAction="#clickNextChap" prefHeight="39.0" prefWidth="186.0" text="&gt;&gt;   Chap sau   &gt;&gt;" textFill="#00a8ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="preImg" layoutX="539.0" layoutY="138.0" mnemonicParsing="false" onAction="#clickPreImg" prefHeight="39.0" prefWidth="186.0" text="&lt;&lt; Trang trước &lt;&lt;" textFill="#00a8ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="nextImg" layoutX="539.0" layoutY="72.0" mnemonicParsing="false" onAction="#clickNextImg" prefHeight="39.0" prefWidth="186.0" text="&gt;&gt;  Trang sau  &gt;&gt;" textFill="#00a8ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button layoutX="610.0" layoutY="521.0" mnemonicParsing="false" onAction="#clickReturnMainScene" prefHeight="46.0" prefWidth="161.0" text="TRỞ VỀ" textAlignment="CENTER" textFill="#00a8ff" wrapText="true">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label fx:id="numberChap" alignment="CENTER" layoutX="327.0" layoutY="20.0" prefHeight="27.0" prefWidth="82.0" text="Label" textFill="#ff8000" />
+      <Label fx:id="numberImg1" alignment="CENTER" layoutX="90.0" layoutY="20.0" prefHeight="27.0" prefWidth="70.0" text="Ảnh: " textFill="#ff8000" />
+      <Label fx:id="numberImg2" alignment="CENTER" layoutX="235.0" layoutY="20.0" prefHeight="27.0" prefWidth="92.0" text="Chapter:" textFill="#ff8000" />
+      <TextField fx:id="chapNumSearch" focusTraversable="false" layoutX="537.0" layoutY="397.0" prefHeight="39.0" prefWidth="92.0" promptText="Chapter">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="find" layoutX="655.0" layoutY="397.0" mnemonicParsing="false" onAction="#clickFind" prefHeight="39.0" prefWidth="70.0" text="Tìm" textFill="#00a8ff" />
+      <ImageView fx:id="imageView" fitHeight="523.0" fitWidth="436.0" layoutX="43.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

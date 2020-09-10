@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.Controller">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1087.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/Home/practice/java/CrawlKnYChap/src/main/resources/img/background.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="read" layoutX="67.0" layoutY="432.0" mnemonicParsing="false" onAction="#clickRead" prefHeight="51.0" prefWidth="206.0" text="Đọc truyện" textAlignment="CENTER" textFill="#2d9ed7">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="download" layoutX="67.0" layoutY="504.0" mnemonicParsing="false" onAction="#clickDownload" prefHeight="51.0" prefWidth="206.0" text="Tải truyện" textAlignment="CENTER" textFill="#2d9ed7">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="numberRead" layoutX="323.0" layoutY="432.0" opacity="0.8" prefHeight="51.0" prefWidth="240.0" promptText="Nhập chap muốn đọc">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="numberDownload" layoutX="323.0" layoutY="504.0" opacity="0.8" prefHeight="51.0" prefWidth="240.0" promptText="Nhập chap muốn tải">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="newestChapter" editable="false" layoutX="79.0" layoutY="232.0" opacity="0.82" prefHeight="60.0" prefWidth="691.0">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </TextField>
+      <Button fx:id="intro" layoutX="322.0" layoutY="312.0" mnemonicParsing="false" onAction="#clickIntro" prefHeight="51.0" prefWidth="247.0" text="Giới thiệu" textAlignment="CENTER" textFill="#2d9ed7">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="checkBox" layoutX="324.0" layoutY="565.0" mnemonicParsing="false" selected="true" text="Tự động tạo thư mục" />
+      <Label layoutX="562.0" layoutY="14.0" prefHeight="27.0" prefWidth="273.0" text="Một sản phẩm của Hieu Pham" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
