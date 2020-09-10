@@ -1,4 +1,4 @@
-#CrawlKnYChap
+# Crawl truyện Kimetsu no Yaiba (có tất cả 205 chap)
 
 _Đọc file 2.crawlKnYchap.pdf để tìm hiểu chi tiết: giao diện, package, class_
 
